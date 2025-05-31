@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Demonstration - GroupCSS1</title>
+  <style>
+    /* These are the CSS comments */
+    
+    /* first is Background color */
+    .bg-color {
+      background-color: lightblue;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* Text color */
+    .text-color {
+      color: darkgreen;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    /* Border color */
+    .border-color {
+      border: 3px solid red;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* Background image */
+    .bg-image {
+      background-image: url('https://via.placeholder.com/150');
+      height: 150px;
+      width: 150px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 10px;
+    }
+    
+    /* Background repeat */
+    .bg-repeat {
+      background-image: url('https://via.placeholder.com/50');
+      background-repeat: repeat;
+      height: 100px;
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    
+    /* Background attachment */
+    .bg-attachment {
+      background-image: url('https://via.placeholder.com/100');
+      background-attachment: fixed;
+      height: 100px;
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    
+    /* Border style */
+    .border-style {
+      border-style: dotted;
+      border-width: 3px;
+      border-color: blue;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* Border width */
+    .border-width {
+      border: solid black;
+      border-width: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* Borders different sides */
+    .border-sides {
+      border-top: 3px solid red;
+      border-right: 5px dotted green;
+      border-bottom: 7px dashed blue;
+      border-left: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* Rounded borders */
+    .border-rounded {
+      border: 2px solid purple;
+      border-radius: 15px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* Margins */
+    .margin {
+      margin: 20px;
+      border: 1px solid black;
+      padding: 5px;
+    }
+    
+    /* Padding */
+    .padding {
+      padding: 20px;
+      border: 1px solid black;
+      margin-bottom: 10px;
+    }
+    
+    /* Height */
+    .height {
+      height: 100px;
+      background-color: lightcoral;
+      margin-bottom: 10px;
+    }
+    
+    /* Width */
+    .width {
+      width: 200px;
+      background-color: lightseagreen;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Property Demonstration</h1>
+
+  <section>
+    <h2>Comments</h2>
+    <p>This page uses internal CSS comments inside the &lt;style&gt; tag.</p>
+  </section>
+
+  <section class="bg-color">
+    <h2>Background Color</h2>
+    <p>This block has a light blue background color.</p>
+  </section>
+
+  <section class="text-color">
+    <h2>Text Color</h2>
+    <p>This text is dark green and bold.</p>
+  </section>
+
+  <section class="border-color">
+    <h2>Border Color</h2>
+    <p>This block has a red border.</p>
+  </section>
+
+  <section class="bg-image"></section>
+
+  <section class="bg-repeat">
+    <h2>Background Repeat</h2>
+    <p>The background image repeats.</p>
+  </section>
+
+  <section class="bg-attachment">
+    <h2>Background Attachment (Fixed)</h2>
+    <p>The background image stays fixed when scrolling.</p>
+  </section>
+
+  <section class="border-style">
+    <h2>Border Style</h2>
+    <p>This block has a dotted blue border.</p>
+  </section>
+
+  <section class="border-width">
+    <h2>Border Width</h2>
+    <p>This block has a thick black border.</p>
+  </section>
+
+  <section class="border-sides">
+    <h2>Borders on Different Sides</h2>
+    <p>This block has different border styles and widths on each side.</p>
+  </section>
+
+  <section class="border-rounded">
+    <h2>Rounded Borders</h2>
+    <p>This block has rounded corners.</p>
+  </section>
+
+  <section class="margin">
+    <h2>Margins</h2>
+    <p>This block has a margin of 20 pixels.</p>
+  </section>
+
+  <section class="padding">
+    <h2>Padding</h2>
+    <p>This block has padding of 20 pixels inside the border.</p>
+  </section>
+
+  <section class="height">
+    <h2>Height</h2>
+    <p>This block has a fixed height of 100 pixels.</p>
+  </section>
+
+  <section class="width">
+    <h2>Width</h2>
+    <p>This block has a fixed width of 200 pixels.</p>
+  </section>
+
+</body>
+</html>
