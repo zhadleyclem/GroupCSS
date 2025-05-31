@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GroupCSS2 Demonstration</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>GroupCSS2 CSS Elements Demo</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#box-model">Box Model</a></li>
+      <li><a href="#icons">Icons</a></li>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#tables">Tables</a></li>
+      <li><a href="#layout">Layout</a></li>
+      <li><a href="#gallery">Image Gallery</a></li>
+      <li><a href="#float">Float</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="box-model" class="box-model">
+      <h2>Box Model</h2>
+      <p>This box shows margin, border, padding, and content area.</p>
+    </section>
+
+    <section id="icons">
+      <h2>Icons (using Unicode)</h2>
+      <p><span class="icon">&#9733;</span> Star Icon</p>
+      <p><span class="icon">&#9889;</span> Lightning Icon</p>
+      <p><span class="icon">&#128640;</span> Rocket Icon</p>
+    </section>
+
+    <section id="lists">
+      <h2>Lists</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+      </ul>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+      </ol>
+    </section>
+
+    <section id="tables">
+      <h2>Tables</h2>
+      <table>
+        <thead>
+          <tr><th>Name</th><th>Age</th><th>City</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Zach1</td><td>22</td><td>USA</td></tr>
+          <tr><td>Zach2</td><td>22</td><td>Spain</td></tr>
+          <tr><td>Zach3</td><td>22</td><td>Mexico</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="layout">
+      <h2>some Layout Components</h2>
+      <div class="float-left">
+        <h3>Left Side (Floated Left)</h3>
+        <p>This box is floated left.</p>
+      </div>
+      <div class="float-right">
+        <h3>Right Side (Floated Right)</h3>
+        <p>This box is floated right.</p>
+      </div>
+      <div style="clear: both;"></div>
+    </section>
+
+    <section id="gallery">
+      <h2>Image Gallery</h2>
+      <div class="gallery">
+        <img src="/css/pic1.jpg" alt="Picture 1" />
+        <img src="/css/pic2.jpg" alt="Picture 2" />
+        <img src="/css/pic3.webp" alt="Picture 3" />
+        <img src="/css/pic4.jpg" alt="Picture 4" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2025 Zach</p>
+  </footer>
+
+</body>
+</html>
